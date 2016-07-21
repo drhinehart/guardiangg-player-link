@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "guardian.gg player links",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://guardian.gg/*",
+        "https://guardian.gg/*"
+      ],
+      "js": ["jquery-3.1.0.min.js", "content.js"]
+    }
+  ]
+}
